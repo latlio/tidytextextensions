@@ -1,0 +1,22 @@
+Package: tidytextextensions
+Type: Package
+Title: Additional Term Frequency Formulations
+Version: 0.1.0
+Authors@R: c(
+  person("Lathan", "Liou", email = "lathan.liou@icahn.mssm.edu", role = c("aut", "cre")),
+  person("Ivan", "Lopez", email = "ivlopez@stanford.edu", role = "ctb"),
+  person("Akshay", "Swaminathan", email = "akshay325@gmail.com", role = "ctb")
+  )
+Maintainer: Lathan Liou <lathan.liou@icahn.mssm.edu>
+Description: A suite of tidy functions that calculate additional term frequency formulations. Designed to be an extension 
+  of 'tidytext'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    rlang,
+    tidytext
